@@ -15,3 +15,4 @@ This directory contains Python projects about classes and objects.
 - Files end with a new line and are executable
 | 1-square.py | Defines a class Square with a private instance attribute size |
 | 2-square.py | Defines a class Square with a private size that is validated |
+| 3-square.py | Defines a class Square with a validated size and an area method |
