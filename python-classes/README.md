@@ -18,3 +18,4 @@ This directory contains Python projects about classes and objects.
 | 3-square.py | Defines a class Square with a validated size and an area method |
 | 4-square.py | Defines a class Square with a size property getter and setter |
 | 5-square.py | Defines a class Square that prints itself with # |
+| 6-square.py | Defines a class Square with a size and a position |
