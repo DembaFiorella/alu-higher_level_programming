@@ -13,3 +13,4 @@ This directory contains Python projects about classes and objects.
 - Python 3 on Ubuntu
 - No module imports allowed
 - Files end with a new line and are executable
+| 1-square.py | Defines a class Square with a private instance attribute size |
