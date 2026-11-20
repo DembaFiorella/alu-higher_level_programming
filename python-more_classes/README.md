@@ -7,3 +7,4 @@ This directory contains Python projects about classes and objects.
 | File | Description |
 | --- | --- |
 | 0-rectangle.py | Defines an empty class Rectangle |
+| 1-rectangle.py | Defines a class Rectangle with a validated width and height |
