@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines a class Rectangle with a method to compare rectangles."""
+"""Module that defines a Rectangle class with a comparison method."""
 
 
 class Rectangle:
