@@ -42,3 +42,9 @@ Write a script that prints the full description of the table first_table from th
 Write a script that lists all rows of the table first_table from the database hbtn_0c_0 in your MySQL server.
 
 - File: `6-list_values.sql`
+
+## Task 7. First add
+
+Write a script that inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server.
+
+- File: `7-insert_value.sql`
