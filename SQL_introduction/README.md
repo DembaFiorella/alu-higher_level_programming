@@ -24,3 +24,9 @@ Write a script that deletes the database hbtn_0c_0 in your MySQL server.
 Write a script that lists all the tables of a database in your MySQL server.
 
 - File: `3-list_tables.sql`
+
+## Task 4. First table
+
+Write a script that creates a table called first_table in the current database in your MySQL server.
+
+- File: `4-first_table.sql`
