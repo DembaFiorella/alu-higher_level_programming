@@ -18,3 +18,9 @@ Write a script that creates the database hbtn_0c_0 in your MySQL server.
 Write a script that deletes the database hbtn_0c_0 in your MySQL server.
 
 - File: `2-remove_database.sql`
+
+## Task 3. List all the tables of a database
+
+Write a script that lists all the tables of a database in your MySQL server.
+
+- File: `3-list_tables.sql`
