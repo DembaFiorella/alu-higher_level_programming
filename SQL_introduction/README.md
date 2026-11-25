@@ -36,3 +36,9 @@ Write a script that creates a table called first_table in the current database i
 Write a script that prints the full description of the table first_table from the database hbtn_0c_0 in your MySQL server.
 
 - File: `5-full_table.sql`
+
+## Task 6. List all in table
+
+Write a script that lists all rows of the table first_table from the database hbtn_0c_0 in your MySQL server.
+
+- File: `6-list_values.sql`
