@@ -12,3 +12,9 @@ Write a script that lists all databases of your MySQL server.
 Write a script that creates the database hbtn_0c_0 in your MySQL server.
 
 - File: `1-create_database_if_missing.sql`
+
+## Task 2. Delete a database
+
+Write a script that deletes the database hbtn_0c_0 in your MySQL server.
+
+- File: `2-remove_database.sql`
