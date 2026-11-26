@@ -1,3 +1,3 @@
 #!/bin/bash
-# Sends a GET request to a URL and displays the body of a 200 response
-curl -sf "$1"
+# Sends a GET request to a URL, follows redirects, and displays the body of a 200 response
+curl -sfL "$1"
