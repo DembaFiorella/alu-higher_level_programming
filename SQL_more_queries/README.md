@@ -24,3 +24,9 @@ Write a script that lists all genres from hbtn_0d_tvshows and displays the numbe
 Write a script that uses the hbtn_0d_tvshows database to list all genres of the show Dexter.
 
 - File: `14-my_genres.sql`
+
+## Task 15. Only Comedy
+
+Write a script that lists all Comedy shows in the database hbtn_0d_tvshows.
+
+- File: `15-comedy_only.sql`
