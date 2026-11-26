@@ -11,3 +11,9 @@ Write a Bash script that takes in a URL, sends a request to that URL, and displa
 Write a Bash script that takes in a URL, sends a GET request to the URL, and displays the body of the response. Only the body of a 200 status code response is displayed.
 
 - File: `1-body.sh`
+
+## Task 2. cURL Method
+
+Write a Bash script that sends a DELETE request to the URL passed as the first argument and displays the body of the response.
+
+- File: `2-delete.sh`
