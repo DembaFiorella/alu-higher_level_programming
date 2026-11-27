@@ -33,3 +33,9 @@ Write a Python script that takes in a letter and sends a POST request to http://
 Write a Python script that takes your GitHub credentials (username and personal access token as password) and uses the GitHub API to display your id.
 
 - File: `10-my_github.py`
+
+## Task 100. Commits
+
+Write a Python script that takes a repository name (first argument) and an owner name (second argument) and uses the GitHub API to list the 10 latest commits, printing each as <sha>: <author name>.
+
+- File: `100-github_commits.py`
