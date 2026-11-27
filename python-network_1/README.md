@@ -27,3 +27,9 @@ Write a Python script that takes in a URL, sends a request to the URL and displa
 Write a Python script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter (variable q, empty string if no argument is given). Displays [<id>] <name> if the JSON is valid and not empty, Not a valid JSON if it is invalid, or No result if it is empty.
 
 - File: `8-json_api.py`
+
+## Task 10. My GitHub!
+
+Write a Python script that takes your GitHub credentials (username and personal access token as password) and uses the GitHub API to display your id.
+
+- File: `10-my_github.py`
