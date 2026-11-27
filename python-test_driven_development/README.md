@@ -41,3 +41,10 @@ Write a function that prints a text with 2 new lines after each of the character
 
 - File: `5-text_indentation.py`
 - Tests: `tests/5-text_indentation.txt`
+
+## Task 6. Max integer - Unittest
+
+Write unittests for the function def max_integer(list=[]): using the unittest module.
+
+- File: `6-max_integer.py`
+- Tests: `tests/6-max_integer_test.py`
