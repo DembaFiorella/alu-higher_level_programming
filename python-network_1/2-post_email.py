@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-"""Sends a POST request with an email parameter."""
+"""Sends a POST request with an email and displays the response body"""
 import sys
-import urllib.request
 import urllib.parse
+import urllib.request
 
-email = sys.argv[2]
-data = urllib.parse.urlencode({"email": email}).encode("utf-8")
 
-with urllib.request.urlopen(sys.argv[1], data=data) as response:
-    print(response.read().decode("utf-8"))
+if __name__ == "__main__":
+    data = urllib.parse.urlencode({"email": sys.argv[2]}).encode("utf-8")
+    request = urllib.request.Request(sys.argv[1], data)
+    with urllib.request.urlopen(request) as response:
+        print(response.read().decode("utf-8"))
