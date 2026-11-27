@@ -20,3 +20,10 @@ Write a function that divides all elements of a matrix: def matrix_divided(matri
 
 - File: `2-matrix_divided.py`
 - Tests: `tests/2-matrix_divided.txt`
+
+## Task 3. Say my name
+
+Write a function that prints My name is <first name> <last name>: def say_my_name(first_name, last_name=""). A TypeError is raised if first_name or last_name is not a string.
+
+- File: `3-say_my_name.py`
+- Tests: `tests/3-say_my_name.txt`
