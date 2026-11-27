@@ -1,3 +1,4 @@
+import csv
 #!/usr/bin/python3
 """Module base: defines the Base class."""
 import json
@@ -82,9 +83,19 @@ class Base:
             with open(filename, 'r', newline='') as f:
                 reader = csv.reader(f)
                 if cls.__name__ == 'Rectangle':
-                    return [cls.create(id=int(row[0]), width=int(row[1]), height=int(row[2]), x=int(row[3]), y=int(row[4])) for row in reader]
+                    return [
+                        cls.create(
+                            id=int(row[0]), width=int(row[1]),
+                            height=int(row[2]), x=int(row[3]),
+                            y=int(row[4])
+                        ) for row in reader
+                    ]
                 else:
-                    return [cls.create(id=int(row[0]), size=int(row[1]), x=int(row[2]), y=int(row[3])) for row in reader]
+                    return [
+                        cls.create(
+                            id=int(row[0]), size=int(row[1]),
+                            x=int(row[2]), y=int(row[3])
+                        ) for row in reader
+                    ]
         except FileNotFoundError:
             return []
-import csv
