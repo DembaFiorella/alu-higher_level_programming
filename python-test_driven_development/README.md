@@ -13,3 +13,10 @@ Write a function that divides all elements of a matrix: def matrix_divided(matri
 
 - File: `2-matrix_divided.py`
 - Tests: `tests/2-matrix_divided.txt`
+
+## Task 2. Matrix division
+
+Write a function that divides all elements of a matrix: def matrix_divided(matrix, div). Elements are divided by div, rounded to 2 decimal places, and a new matrix is returned.
+
+- File: `2-matrix_divided.py`
+- Tests: `tests/2-matrix_divided.txt`
