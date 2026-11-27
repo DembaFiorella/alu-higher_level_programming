@@ -57,3 +57,9 @@ Write a Python script that takes in a URL, sends a request to the URL and displa
 Write a Python script that takes in a URL and an email, sends a POST request to the passed URL with the email as a parameter, and displays the body of the response (decoded in utf-8).
 
 - File: `2-post_email.py`
+
+## Task 4. What's my status? #1
+
+Write a Python script that fetches https://alu-intranet.hbtn.io/status using the requests package and displays the body of the response with a tabulation before each dash.
+
+- File: `4-hbtn_status.py`
