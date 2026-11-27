@@ -27,3 +27,10 @@ Write a function that prints My name is <first name> <last name>: def say_my_nam
 
 - File: `3-say_my_name.py`
 - Tests: `tests/3-say_my_name.txt`
+
+## Task 4. Print square
+
+Write a function that prints a square with the character #: def print_square(size). A TypeError is raised if size is not an integer (including negative floats), and a ValueError if size is less than 0.
+
+- File: `4-print_square.py`
+- Tests: `tests/4-print_square.txt`
