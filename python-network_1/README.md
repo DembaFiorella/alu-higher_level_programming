@@ -39,3 +39,9 @@ Write a Python script that takes your GitHub credentials (username and personal 
 Write a Python script that takes a repository name (first argument) and an owner name (second argument) and uses the GitHub API to list the 10 latest commits, printing each as <sha>: <author name>.
 
 - File: `100-github_commits.py`
+
+## Task 3. Error code
+
+Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8). It handles urllib.error.HTTPError exceptions and prints Error code: followed by the HTTP status code.
+
+- File: `3-error_code.py`
