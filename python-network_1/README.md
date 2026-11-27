@@ -45,3 +45,9 @@ Write a Python script that takes a repository name (first argument) and an owner
 Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8). It handles urllib.error.HTTPError exceptions and prints Error code: followed by the HTTP status code.
 
 - File: `3-error_code.py`
+
+## Task 1. Response header value
+
+Write a Python script that takes in a URL, sends a request to the URL and displays the value of the X-Request-Id variable found in the header of the response.
+
+- File: `1-hbtn_header.py`
