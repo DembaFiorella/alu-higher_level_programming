@@ -34,3 +34,10 @@ Write a function that prints a square with the character #: def print_square(siz
 
 - File: `4-print_square.py`
 - Tests: `tests/4-print_square.txt`
+
+## Task 5. Text indentation
+
+Write a function that prints a text with 2 new lines after each of the characters ., ? and :. A TypeError is raised if text is not a string, and there is no space at the beginning or at the end of each printed line.
+
+- File: `5-text_indentation.py`
+- Tests: `tests/5-text_indentation.txt`
